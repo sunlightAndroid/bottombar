@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyBottomBar">
+
+        <attr name="three_buttom_count" format="boolean"/>
+        <attr name="bottombar_background" format="reference|color"/>
+        <attr name="bottombar_tabcount" format="integer"/>
+
+        <attr name="bottombar_first_icon" format="reference"/>
+        <attr name="bottombar_first_text" format="string"/>
+        <attr name="bottombar_first_textsize" format="dimension"/>
+        <attr name="bottombar_first_textcolor" format="color"/>
+        <attr name="bottom_first_select_icon" format="reference"/>
+        <attr name="bottom_first_select_textcolor" format="color"/>
+
+
+        <attr name="bottombar_second_icon" format="reference"/>
+        <attr name="bottombar_second_text" format="string"/>
+        <attr name="bottombar_second_textsize" format="dimension"/>
+        <attr name="bottombar_second_textcolor" format="color"/>
+        <attr name="bottom_second_select_icon" format="reference"/>
+        <attr name="bottom_second_select_textcolor" format="color"/>
+
+
+
+        <attr name="bottombar_third_icon" format="reference"/>
+        <attr name="bottombar_third_text" format="string"/>
+        <attr name="bottombar_third_textsize" format="dimension"/>
+        <attr name="bottombar_third_textcolor" format="color"/>
+        <attr name="bottom_third_select_icon" format="reference"/>
+        <attr name="bottom_third_select_textcolor" format="color"/>
+
+
+        <attr name="bottombar_forth_icon" format="reference"/>
+        <attr name="bottombar_forth_text" format="string"/>
+        <attr name="bottombar_forth_textsize" format="dimension"/>
+        <attr name="bottombar_forth_textcolor" format="color"/>
+        <attr name="bottom_forth_select_icon" format="reference"/>
+        <attr name="bottom_forth_select_textcolor" format="color"/>
+
+
+        <attr name="bottombar_fifth_icon" format="reference"/>
+        <attr name="bottombar_fifth_text" format="string"/>
+        <attr name="bottombar_fifth_textsize" format="dimension"/>
+        <attr name="bottombar_fifth_textcolor" format="color"/>
+        <attr name="bottom_fifth_select_icon" format="reference"/>
+        <attr name="bottom_fifth_select_textcolor" format="color"/>
+
+        <attr name="bottombar_sixth_icon" format="reference"/>
+        <attr name="bottombar_sixth_text" format="string"/>
+        <attr name="bottombar_sixth_textsize" format="dimension"/>
+        <attr name="bottombar_sixth_textcolor" format="color"/>
+        <attr name="bottom_sixth_select_icon" format="reference"/>
+        <attr name="bottom_sixth_select_textcolor" format="color"/>
+
+    </declare-styleable>
+
+
+</resources>
