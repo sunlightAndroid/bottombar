@@ -1,1 +1,3 @@
-include ':app', ':library'
+include ':BottomBarLibrary'
+include ':app'
+rootProject.name = "My Application"

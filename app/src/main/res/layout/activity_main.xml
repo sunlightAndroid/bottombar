@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:lee="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <com.me.gcg.bottombar.view.MyBottomBar
-        android:id="@+id/bottombar"
-        android:layout_alignParentBottom="true"
-        lee:bottombar_background="@color/colorPrimary"
-        lee:bottombar_tabcount="5"
-        lee:bottom_first_select_icon="@mipmap/checkbox_pressed"
-        lee:bottombar_first_icon="@mipmap/checkbox_normal"
-        lee:bottombar_first_text="消息"
-        lee:bottombar_second_text="联系人"
-        lee:bottombar_third_text="动态"
-        lee:bottombar_forth_text="其他"
-        lee:bottombar_fifth_text="其他2"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
-</RelativeLayout>
+    <com.eric.bottombarlibrary.view.tab.BottomTab
+        android:id="@+id/bottomTab"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"  />
+
+</LinearLayout>
