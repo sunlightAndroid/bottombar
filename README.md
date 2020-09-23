@@ -1,4 +1,4 @@
-# bottombar
+# 简单好用的底部导航栏bottombar
 
 ## 使用步骤：
 
